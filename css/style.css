@@ -103,16 +103,23 @@ main a:hover{
     padding-top: 45px;
 }
 /* section first */
+.first{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+}
 .illustrazione{
-    float: left;
+    display: inline-block;
+    width: 40%;
 }
 .illustrazione img{
+    float: left;
     width: 700px;
     padding-left: 40px;
 }
 .testo{
     float: right;
-    width: 600px;
+    width: 40%;
     padding-top: 50px;
     padding-right: 40px;
 }
@@ -123,5 +130,15 @@ main a:hover{
 .testo p{
     font-size: 24px;
 }
-
-
+.onda{
+    padding-top: 60px;
+}
+.illustrazione.right{
+    float: right;
+}
+.testo.left{
+    float: left;
+}
+.gray{
+    background-color: #f6f6f6;
+}
