@@ -58,19 +58,21 @@ header a:hover{
     padding: 7px 16px;
 }
 /* main */
+
+/* section jumbo */
 .jumbo{
     background-image: url(../img/jumbo.png);
     height: 400px;
     background-size: cover;
 }
 .text h1{
-    font-size: 45px;
+    font-size: 55px;
     padding: 60px 0 40px 0;
 }
 .text p{
-    font-size: 18px;
+    font-size: 24px;
 }
-.text{
+.jumbo .text{
     width: 50%;
     margin: auto;
     color: white;
@@ -94,8 +96,32 @@ main a:hover{
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
 }
+
 .buttoncontainer{
     margin: auto;
     text-align: center;
     padding-top: 45px;
 }
+/* section first */
+.illustrazione{
+    float: left;
+}
+.illustrazione img{
+    width: 700px;
+    padding-left: 40px;
+}
+.testo{
+    float: right;
+    width: 600px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.testo h1{
+    font-size: 65px;
+    padding-bottom: 40px;
+}
+.testo p{
+    font-size: 24px;
+}
+
+
