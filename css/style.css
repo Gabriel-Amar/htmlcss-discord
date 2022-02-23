@@ -8,12 +8,18 @@
     display: table;
     clear: both;
 }
+.btn{
+    background-color: white;
+    border-radius: 40px;
+    text-decoration: none;
+
+}
 /* header */
 header{
     width: 100%;
     height: 80px;
     line-height: 80px;
-    background-color: hsl(224deg 74% 54%);
+    background-color: #255ee9;
 }
 .container{
     width: 80%;
@@ -40,7 +46,7 @@ nav li a{
     list-style-type: none;
     padding: 0 15px;
 }
-a:hover{
+header a:hover{
     text-decoration: underline;
 }
 #accedi{
@@ -49,8 +55,47 @@ a:hover{
     text-align: center; 
 }
 .white{
-    background-color: white;
     padding: 7px 16px;
-    border-radius: 40px;
-    text-decoration: none;
+}
+/* main */
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    background-size: cover;
+}
+.text h1{
+    font-size: 45px;
+    padding: 60px 0 40px 0;
+}
+.text p{
+    font-size: 18px;
+}
+.text{
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.larger{
+    padding: 16px 32px;
+    color: black;
+    margin-right: 25px;
+}
+.darker{
+    padding: 16px 32px;
+    color: white;
+    background-color: #36393F;
+}
+main a:hover{
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.buttoncontainer{
+    margin: auto;
+    text-align: center;
+    padding-top: 45px;
 }
