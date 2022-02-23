@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .clearfix::after{
     content: '';
@@ -24,6 +25,7 @@ header{
 .container{
     width: 80%;
     margin: 0 auto;
+    
 }
 nav .logo img{  
     vertical-align: middle;
@@ -141,4 +143,130 @@ main a:hover{
 }
 .gray{
     background-color: #f6f6f6;
+}
+.illustrazione-centrale img{
+}
+.testo-centrale{
+    text-align: center;
+    padding-top: 50px;
+}
+.testo-centrale h1{
+    font-size: 65px;
+}
+.testo-centrale p{
+    font-size: 24px;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+.button{
+    text-align: center;
+    padding: 40px;
+}
+.btn.larger.blue{
+    background-color: #6684DB;
+}
+/* footer */
+.foot{
+    height: 490px;
+    background-color: #23272A;
+}
+.container.border{
+    border-bottom: 1px solid #5865f2;
+}
+#country{
+    text-align: center;
+    vertical-align: super;
+}
+.lingua img{
+    height: 20px;
+}
+select{
+    height: 20px;
+}
+.foot{
+    padding-top: 80px;
+}
+.spazio{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+}
+.prodotto{
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+}
+.compagnia{
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+}
+.risorse{
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+}
+.norme{
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+}
+.foot li{
+    list-style-type: none;
+    color: white;
+    line-height: 30px;
+
+}
+.foot ul{
+    vertical-align: top;
+    padding-left: 0;
+}
+.lingua h2{
+    font-size: 50px;
+    color: #5865f2;
+    margin-bottom: 20px;
+}
+i{
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+.foot h1{
+    color: #5865f2;
+}
+.foot li a{
+    color: white;
+    text-decoration: none;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+
+.finale{
+    height: 250px;
+    background-color: #23272A;
+}
+.border{
+    padding-bottom: 38px;
+}
+.back{
+    background-color: #23272A;
+}
+.back a{
+    float: right;
+    margin-top: 30px;
+}
+.back img{
+    float: left;
+    vertical-align: middle;
+    margin-top: 30px;
 }
