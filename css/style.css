@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
 .clearfix::after{
     content: '';
@@ -24,8 +25,8 @@ header{
 }
 .container{
     width: 80%;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
+    min-width: 1200px; 
 }
 nav .logo img{  
     vertical-align: middle;
@@ -269,4 +270,13 @@ i{
     float: left;
     vertical-align: middle;
     margin-top: 30px;
+}
+.wave{
+    color: #f6f6f6;
+    transform: rotate(180deg);
+    margin-top: -5px;
+}
+.wave1{
+    color: #f6f6f6;
+    margin-bottom: -5px;
 }
